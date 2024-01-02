@@ -1,0 +1,275 @@
+body{
+    background-color: rgb(253, 253, 253);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    margin: 0
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    height:500px;
+    max-width:100%;
+    border-radius: 15px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin:0 auto;
+    box-shadow: 1px 0px 15px;
+}
+
+.Left-Purple{
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 15px;
+    max-width:400px;
+    
+}
+
+.Left-Content p{
+       transform: translate(120px,100px);
+        color:hsl(220, 4%, 61%);
+        font-size: 17px;
+        width:45%
+}
+
+.Left-Content h1{
+    transform: translate(157px,90px);
+    font-size: 30px;
+    color:white;
+    font-weight:500;
+   
+}
+
+.Left-Content span{
+    position: relative;
+    left:100px;
+    bottom:-80px;
+    font-size: 70px;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    padding:60px;
+    border-radius:110px;
+    color:white;
+    font-weight:800;
+}
+
+.Left-Content h3{
+    color:hsl(220, 4%, 61%);
+    transform: translate(170px, 55px);
+    font-weight:500;
+}
+
+.Left-Content h2{
+    transform: translate(140px, 7px);
+    color:hsl(220, 4%, 61%);
+    font-weight: 500;
+}
+
+
+.Right-White{
+    padding-left:230px;
+}
+
+.Right-White h1{
+    transform: translate(-190px);
+    font-weight:500;
+    font-size: 30px;
+}
+
+.Reaction{
+    transform: translate(-175px);
+    background-color: hsla(0, 100%, 67%, 0.067);
+    height:60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding:0 15px;
+    color:hsl(0, 100%, 67%);
+    font-weight:600;
+    
+}
+.Reaction img {
+    margin-right: 10px; /* Adjust as needed */
+}
+
+
+.Reaction h4{
+    transform: translate(110px, -3px);
+}
+
+.Reaction h5{
+    transform: translate(120px, -3px);
+    font-size: 15px;
+    color:hsl(220, 4%, 61%);
+}
+
+.Visual {
+    transform: translate(-175px, 60px);
+    background-color:hsla(234, 85%, 45%, 0.067);
+    border-radius: 10px;
+    height:60px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding:0 15px;
+    color:hsl(234, 85%, 45%);
+    font-weight:600;
+}
+
+.Visual img{
+    margin-right: 10px;
+}
+
+.Visual h4{
+    transform: translate(135px);
+}
+
+.Visual h5{
+    transform: translate(145px);
+    font-size: 15px;
+    color:hsl(220, 4%, 61%);
+}
+
+.Verbal{
+    transform: translate(-175px, 40px);
+    background-color: hsl(166, 100%, 37%, 0.067);
+    border-radius: 10px;
+    height:60px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding:0 15px;
+    color:hsl(166, 100%, 37%);
+    font-weight:600;
+}
+
+.Verbal img{
+    margin-right: 10px;
+}
+
+.Verbal h4{
+    transform: translate(130px);
+}
+
+.Verbal h5{
+    transform: translate(137px);
+    font-size: 15px;
+    color:hsl(220, 4%, 61%);
+}
+
+.Memory{
+    transform: translate(-175px, 20px);
+    background: hsl(39, 100%, 56%, 0.067);
+    border-radius: 10px;
+    height:60px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding:0 15px;
+    color:hsl(39, 100%, 56%);
+    font-weight:600;
+}
+
+.Memory img{
+    margin-right: 10px;
+}
+
+.Memory h4{
+    transform: translate(115px);
+}
+
+.Memory h5{
+    transform: translate(123px);
+    font-size: 15px;
+    color:hsl(220, 4%, 61%);
+}
+
+a{
+    position: relative;
+    bottom:-110px;
+    color:white;
+    left:-175px;
+    background-color:hsl(224, 30%, 27%);
+    min-width:250px;
+    padding:20px;
+    display: inline-block;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:hover{
+    background:rgb(96, 0, 213);
+}
+
+.Reaction h4, .Memory h4, .Verbal h4, .Visual h4{
+    color:hsl(224, 30%, 27%);
+}
+
+
+@media(max-width:920px) {
+    .container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:1400px;
+    padding-top:0px;
+    max-width:100%;
+    border-radius: 15px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin:0 auto;
+    height: 195vh; /* Adjust as needed */
+    padding-top: 0;
+    }
+
+    .Left-Purple{
+        background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        border-radius: 15px;
+        max-width:400px;
+        height:600px;
+        padding:60px;
+    }
+
+    .Left-Content p{
+        transform: translate(120px,220px);
+         color:hsl(220, 4%, 61%);
+         font-size: 17px;
+         width:45%
+ }
+ 
+ .Left-Content h1{
+     transform: translate(157px,190px);
+     font-size: 30px;
+     color:white;
+     font-weight:500;
+    
+ }
+ 
+ .Left-Content span{
+     position: relative;
+     left:100px;
+     bottom:-170px;
+     font-size: 70px;
+     background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+     padding:60px;
+     border-radius:110px;
+     color:white;
+     font-weight:800;
+ }
+ 
+ .Left-Content h3{
+     color:hsl(220, 4%, 61%);
+     transform: translate(170px, 150px);
+     font-weight:500;
+ }
+ 
+ .Left-Content h2{
+     position: relative;
+     bottom:-120px;
+     color:hsl(220, 4%, 61%);
+     font-weight: 500;
+ }
+ 
+}
